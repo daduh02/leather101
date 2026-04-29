@@ -7,34 +7,55 @@
 <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-<header class="hero">
+<header class="hero" id="top">
   <p class="eyebrow">Buying guide</p>
   <h1>Best leather for beginners</h1>
   <p class="hero-text">What to buy first, what to avoid, and what works best for learning.</p>
+  <div class="hero-actions">
+    <a href="/">Home</a>
+    <a href="/starter-kit.html" class="secondary">Starter Kit</a>
+    <a href="/project-tutorials.html" class="secondary">Tutorials</a>
+  </div>
 </header>
+
+<nav class="quick-nav" aria-label="Best leather navigation">
+  <a href="/">Home</a>
+  <a href="#comparison">Comparison</a>
+  <a href="#first-purchase">First Purchase</a>
+  <a href="/starter-kit.html">Starter Kit</a>
+  <a href="/project-tutorials.html">Tutorials</a>
+</nav>
+
 <main>
-  <section class="table-wrap">
-    <table>
-      <thead>
-        <tr><th>Leather</th><th>Best for</th><th>Beginner rating</th><th>Why</th></tr>
-      </thead>
-      <tbody>
-        <tr><td>Vegetable-Tanned Shoulder</td><td>Wallets, tooling</td><td>★★★★★</td><td>Best all-round beginner leather</td></tr>
-        <tr><td>Vegetable-Tanned Double Shoulder</td><td>Practice + projects</td><td>★★★★★</td><td>Great value and versatile</td></tr>
-        <tr><td>Top Grain Chrome Tan</td><td>Bags, pouches</td><td>★★★★☆</td><td>Easy to work with</td></tr>
-        <tr><td>Belly Leather</td><td>Practice cuts</td><td>★★★☆☆</td><td>Cheap but inconsistent</td></tr>
-        <tr><td>Bonded Leather</td><td>Not recommended</td><td>★☆☆☆☆</td><td>Poor durability</td></tr>
-      </tbody>
-    </table>
+  <section id="comparison">
+    <div class="section-heading">
+      <p class="section-kicker">Beginner buying guide</p>
+      <h2>Leather Comparison</h2>
+      <p>Start with leather that is easy to cut, stitch and finish.</p>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Leather</th><th>Best for</th><th>Beginner rating</th><th>Why</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Vegetable-Tanned Shoulder</td><td>Wallets, tooling</td><td>★★★★★</td><td>Best all-round beginner leather</td></tr>
+          <tr><td>Vegetable-Tanned Double Shoulder</td><td>Practice + projects</td><td>★★★★★</td><td>Great value and versatile</td></tr>
+          <tr><td>Top Grain Chrome Tan</td><td>Bags, pouches</td><td>★★★★☆</td><td>Easy to work with</td></tr>
+          <tr><td>Belly Leather</td><td>Practice cuts</td><td>★★★☆☆</td><td>Cheap but inconsistent</td></tr>
+          <tr><td>Bonded Leather</td><td>Not recommended</td><td>★☆☆☆☆</td><td>Poor durability</td></tr>
+        </tbody>
+      </table>
+    </div>
   </section>
 
-  <section class="advice-card">
+  <section id="first-purchase" class="advice-card">
     <h2>Best first purchase</h2>
     <p><strong>Buy:</strong> 3–4oz vegetable-tanned shoulder leather.</p>
     <p>It is the best balance of price, quality, tooling ability and learning value.</p>
   </section>
 
-  <a href="/" class="back-to-top">← Back Home</a>
+  <a href="#top" class="back-to-top">Back to top ↑</a>
 </main>
 <footer><p>Leather101 © 2026</p></footer>
 </body>
