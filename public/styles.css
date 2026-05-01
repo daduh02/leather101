@@ -47,7 +47,7 @@ a {
   text-align: center;
   background:
     linear-gradient(90deg, rgba(33, 25, 21, .86), rgba(55, 37, 28, .66) 46%, rgba(33, 25, 21, .28)),
-    url("/assets/leather-workbench-hero.jpg") center / cover;
+    url("/assets/leather-workbench-hero.webp") center / cover;
 }
 
 .hero::after {
@@ -421,7 +421,7 @@ footer p {
     text-align: left;
     background:
       linear-gradient(180deg, rgba(33, 25, 21, .18), rgba(33, 25, 21, .88) 58%, rgba(33, 25, 21, .95)),
-      url("/assets/leather-workbench-hero.jpg") 64% center / cover;
+      url("/assets/leather-workbench-hero.webp") 64% center / cover;
   }
 
   .hero h1 {
